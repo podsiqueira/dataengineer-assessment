@@ -5,7 +5,7 @@ from pyspark.sql import types as T
 from pyspark.sql import Window as W
 import pandas as pd
 
-from main.currentBalance import clean_column_spaces  # Import the function from the main module
+from main.currentBalance import clean_column_spaces  # Import the function from the main script
 
 @pytest.fixture()
 def spark():
