@@ -7,6 +7,7 @@ This script processes a bank transaction dataset from an Excel file and calculat
 - PySpark
 - pandas
 - openpyxl
+- pytest
 - OpenJDK 22.0.2
 
 ## Running the Code
@@ -22,6 +23,10 @@ This script processes a bank transaction dataset from an Excel file and calculat
 
     ```
     pip install openpyxl
+    ```
+
+    ```
+    pip install pytest
     ```
 
 2. Run the PySpark script:
