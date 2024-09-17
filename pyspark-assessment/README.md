@@ -1,4 +1,4 @@
-# Bank Transactions with Balance Calculation (Explicit Schema)
+# Bank Transactions with Balance Calculation
 
 ## Description
 This script processes a bank transaction dataset from an Excel file and calculates the current balance for each account based on its transaction history. The final output is stored in a CSV file format. In this version, the schema for the Excel file is explicitly enforced with the appropriated data types.
@@ -39,4 +39,4 @@ This script processes a bank transaction dataset from an Excel file and calculat
 - `output_path`: The path to the output file with Current Balance per Account Transaction.
 
 ## Output
-The output will be saved in CSV format in the specified location.
+The output will be saved in CSV format in the specified location (output_path).
